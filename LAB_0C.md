@@ -1,6 +1,13 @@
 # Lab - GitHub
 
-## Exercise 1: Signing up for a new personal account
+Please note that following:
+
+* Task 1 to 5 are to be done using your own private repository.
+* Task 6 is to learn the basic commands while interacting with Git
+* Task 7 is used in your GBA assignment.
+* Task 8 is to familiarize yourself with Git in VSCode.
+
+## Task 1: Signing up for a new personal account
 
 1. Navigate to [https://github.com/](https://github.com/)
 
@@ -10,7 +17,7 @@
 
 4. Follow on-screen prompts to create your personal account
 
-## Exercise 2: Setting up username and email address in Git
+## Task 2: Setting up username and email address in Git
 
 1. Open **Terminal**.
 
@@ -32,7 +39,7 @@
    git config --global --list
    ```
 
-## Exercise 3: Create repository on Github
+## Task 3: Create repository on Github
 
 Learn how to create a new repository on Github website.
 
@@ -54,7 +61,7 @@ Using the above steps, please create 3 empty repositories with the following giv
 *  automation
 *  myReactApp
 
-## Exercise 4: GitHub SSH Keys
+## Task 4: GitHub SSH Keys
 
 SSH keys provides a secure and efficient means of accessing GitHub without providing your username and personal access token (PAT). You can generate a SSH key and add the public key to your Github account to establish a secure connection between your computer and Github.
 
@@ -94,7 +101,7 @@ Use `ssh-keyscan` command to scan SSH public host key of GitHub and append it to
 ssh-keyscan github.com > /home/ubuntu/.ssh/known_hosts
 ```
 
-## Exercise 5: Mirror repositories to your own repository
+## Task 5: Mirror repositories to your own repository
 
 To create a copy of the course repositories under yor account with write access, please follow the steps provided.
 
@@ -128,7 +135,7 @@ To create a copy of the course repositories under yor account with write access,
    cd staycationX
    ```
 
-## Exercise 6: Basic Github Commands
+## Task 6: Basic Github Commands
 
 To get started with Git, these are the most commonly used commands that you need to know.
 
@@ -157,27 +164,7 @@ To get started with Git, these are the most commonly used commands that you need
 * git merge [branch]: Merge the specified branch's history into the current one.
 
 
-## Exercise 7: Setup Branch Protection Rule (Optional)
-
-1. On Github website, navigate to the main page of repository.
-
-2. Under the repository name, click on **Settings**.
-
-3. In the "Code and automation" section of the sidebar, click **Branches**.
-
-4. Next to "Branch protection rules", click **Add rule**.
-
-5. Under **Branch name pattern**, enter the branch name or pattern that you want to protect. In our case, it would be **main**.
-
-6. Under "Protect matching branches", select **Require a pull request before merging**.
-
-7. Select **Require approvals**.
-
-8. Leave the rest of the options as defaults
-
-9. Click **Create**.
-
-## Exercise 8: How to create Pull requests?
+## Task 7: How to create Pull requests?
 
 Pull requests allows you to share work you have done on a branch with your team mates, potentially gather feedback on the work and finally integrate that work into the project.
 
@@ -274,75 +261,7 @@ Next, please get the reviewer to login to review the changes.
     git branch -d <local branch name>
     ```
 
-#### From VSCode GitHub Pull Requests Extension
-
-Assuming you have completed the first two steps. To open a pull request, follow the steps.
-
-1. In VSCode, click on the **Github Pull Request** extension icon from the left menu.
-
-2. Click on the first icon to create a pull request.
-
-3. Enter a title and description for your pull request.
-
-4. Click on **Create** button.
-
-   ![](images/lab0C/vscode-create-pullrequest.png)
-
-5. A new page with the pull request details will appear on the right.
-
-   ![](images/lab0C/vscode-pullrequest-details.png)
-
-6. Under the **Reviewers** section, click on the gear icon and select from the list of reviewer that you are asking to review the change.
-
----
-
-Next, please get the reviewer to review the changes.
-
----
-
-7. From the Pull Requests extension, expand **Waiting For My Review** tree.
-
-8. Click on the commit and expand the tree, followed by clicking on the **Description**.
-
-   ![](images/lab0C/vscode-review.png)
-
-9. A pull request details page will appear on the right.
-
-10. To review the changes, click on the file and you can click on the + button to add your comments.
-
-11. Back to the pull request page, there are three options for you to pick. In this example, I will select the **Approve** button.
-
-    ![](images/lab0C/vscode-pullrequest-review.png)
-
-12. Now, when the changes are approved. you can merge the pull request. Click on **Merge Pull Request** button.
-
-    ![](images/lab0C/vscode-merge-pullrequest.png)
-
-13. Click **Create Merge Commit**.
-
-    ![](images/lab0C/vscode-create-mergecommit.png)
-
-
-14. Once successfully merged, you are presented the option to delete the branch.
-
-15. Click **Delete branch** to delete the branch.
-
-16. A prompt will appear. Ensure that it is the correct branch and click **OK** to proceed.
-
-    ![](images/lab0C/vscode-deletebranch-prompt.png)
-
-17. You can see the message displayed that the branch has been deleted.
-
-    ![](images/lab0C/vscode-deletebranch-success.png)
-
-18. To delete the local branch, click **Delete branch**.
-
-19. A prompt will appear. Ensure that it is the correct branch and click **OK** to proceed.
-
-    ![](images/lab0C/vscode-delete-localbranch.png)
-
-
-## Exercise 9: Using Git in VSCode
+## Task 8: Using Git in VSCode
 
 VSCode has integrated source control management (SCM) and includes Git support out-of-the-box.
 
