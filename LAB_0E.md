@@ -8,7 +8,7 @@ Now, We will take you through the steps to access your assignment repository onc
 
 Before you start, please ensure that you have the following:
 *   A GitHub account
-*   You have installed Github Classroom extension in VSCode
+*   You have installed Github Classroom extension in VSCode on Ubuntu WSL. (For Windows user)
 
 If you have not done so, please refer to 
 *   `Lab_0A.md` or `Lab_0B.md` for installation of the GitHub classroom extension depending on your platform.
@@ -24,31 +24,27 @@ To start, please do the following:
 
     ![](images/lab0E/accounts-icon.png)
 
-3. Click **Backup and Sync Settings...**.
+3. Click **Sign in with GitHub to use GitHub Classroom**.
 
-4. Click **Sign in** button.
-
-5. Select **Sign in with GitHub**.
-
-6. A web browser will appear, enter your GitHub credentials and click **Sign in**.
+4. A web browser will appear, enter your GitHub credentials and click **Sign in**.
 
    ![](images/lab0E/vscode-login.png)
 
-7. Click **Continue** to proceed.
+5. Click **Continue** to proceed.
 
-8. When you see this prompt, click **Open**. Please note that this prompt is from Microsoft Edge browser. It may appear differently from other web browsers.
+6. When you see this prompt, click **Open**. Please note that this prompt is from Microsoft Edge browser. It may appear differently from other web browsers.
 
     ![](images/lab0E/vscode-prompt.png)
 
-9. Click on the **Accounts** button again on the left menu.
+7. Click on the **Accounts** button again on the left menu.
 
-10. You should see your GitHub account listed.
+8. You should see your GitHub account listed.
 
 ## Accessing Group Assignment
 
 1. Access the group based assignment link that is provided by your instructor.
 
-2. Before accepting the group assignment, you need to create a team if your team members have not done so. If your team has been created, click on the team to join.
+2. Before accepting the group assignment, the elected group leader should create a team. If your team has been created, click on the team to join.
 
     ### New team (no existing team)
 
